@@ -17,9 +17,9 @@ function time() {
     var m = zero(d.getMinutes());
     var s = zero(d.getSeconds());
     p.innerHTML = h + ":" + m + ":" + s;
-    var r = parseInt(s) * 1;
+    var r = parseInt(s) * 4;
     var g = parseInt(s) * 2;
-    var b = parseInt(s) * 3;
+    var b = parseInt(s) * 2;
     document.body.style.backgroundColor = 'rgb(' + r + ',' + g + ',' + b + ')';
 
 }
@@ -28,4 +28,3 @@ setInterval(function() {
     time()
 }, 1000);
 
-document.getElementById('greeting').innerHTML = new Date().getHours() >= 12 ? 'Good Afternoon' : 'Good Morning' : 'Good Evening';
