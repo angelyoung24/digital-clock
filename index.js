@@ -17,7 +17,7 @@ function time() {
     var m = zero(d.getMinutes());
     var s = zero(d.getSeconds());
     p.innerHTML = h + ":" + m + ":" + s;
-    var r = parseInt(s) * 4;
+    var r = parseInt(s) * 6;
     var g = parseInt(s) * 2;
     var b = parseInt(s) * 2;
     document.body.style.backgroundColor = 'rgb(' + r + ',' + g + ',' + b + ')';
