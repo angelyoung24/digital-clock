@@ -12,4 +12,8 @@ Here is the grading criteria:
 3. The time is displayed centered in the middle of the screen
 4. The screen background color changes based on the current time
 
-If you have any questions, please contact me.
+
+
+If you have any questions or suggestions, please contact me.
+
+Here is the link to the clock:  https://angelyoung24.github.io/digital-clock/
