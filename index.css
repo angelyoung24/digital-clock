@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
 #tick {
 	text-align: center;
 	color: white;
@@ -9,7 +16,6 @@
 	letter-spacing: 8px;
 	margin: auto;
 	width: 60%;
-	padding: 250px 30px 50px 80px;
 }
 
 
