@@ -1,12 +1,10 @@
-/**{
-	background: pink;
-}*/
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
 #tick {
 	text-align: center;
 	color: white;
 	text-shadow: 1px 2px #999;
-	font-family: 'Delius Swash Caps', cursive;
+	font-family: 'Sacramento', cursive;
 	font-size: 4em;
 	letter-spacing: 8px;
 	margin: auto;
