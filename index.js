@@ -1,7 +1,7 @@
 // time(d) function is suppose to create the hours minutes and seconds
 // function zero(z) puts zeros at the seconds
 
-var p = document.getElementById('tick');
+const p = document.getElementById('tick');
 
 
 function zero(z) {
@@ -12,14 +12,14 @@ function zero(z) {
 }
 
 function time() {
-    var d = new Date();
-    var h = zero(d.getHours());
-    var m = zero(d.getMinutes());
-    var s = zero(d.getSeconds());
+    let d = new Date();
+    let h = zero(d.getHours());
+    let m = zero(d.getMinutes());
+    let s = zero(d.getSeconds());
     p.innerHTML = h + ":" + m + ":" + s;
-    var r = parseInt(s) * 6;
-    var g = parseInt(s) * 2;
-    var b = parseInt(s) * 2;
+    let r = parseInt(s) * 6;
+    let g = parseInt(s) * 2;
+    let b = parseInt(s) * 2;
     document.body.style.backgroundColor = 'rgb(' + r + ',' + g + ',' + b + ')';
 
 }
